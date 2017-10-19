@@ -1,20 +1,31 @@
-Exercise 1
+1. What is a compiler?
+A compiler takes a high-level code and turns it into low-level machine code - instructions that fit the instruction set of the CPU and can be directly executed
 
-Exercise 2
+2. What is an interpreter?
+An interpreter takes a high-level code and executes it, but does not produce a low-level machine code, it takes the code and interprets how it should be run by an application - the interpreter. This is slower than machine code, though there are optimizations such as producing byte-code and just-in-time compilations to bytecode.
 
-Exercise 3
+3. How is a compiler similar to an interpreter? How are they different?
+A compiler is an application, it's task is to produce a low level sequence of bits that are to be run directly by the CPU, it's an application that writes an application. An interpretor is an application that does not transform code, but rather based on certain rules and semantics it runs your code via the application itself.
 
-Exercise 4
+4. How is compiled or interpreted code different from source code?
+Compiled code is machine code, it's a sequence of bits, interpreted code is either AST or derived bytecode from the AST, source code is text.
 
-Exercise 5
+5. What tool does a programmer use to produce Python source code?
+The python interpreter usually, which is a C application, there are different interpeters in different languages able to execute python code, as long as semantics are clear in order to build an AST.
 
-Exercise 6
+6. What is necessary to execute a Python program?
+An interpreter.
 
-Exercise 7
+7. List several advantages developing software in a higher-level language has over developing software in machine language.
+Readability and faster development cycles due to the presence of REPLs.
 
-Exercise 8
+8. How can an IDE improve a programmer’s productivity?
+A framework with intelligent completion, documentation and testing/running code capabilities let's the developer focus on the code and not the toolset.
 
-Exercise 9
+9. What is the “official” Python IDE?
+I don't know, I use vim.
 
-Exercise 10
+10. What is a statement in a Python program?
+It is an instruction, such as
+print("I wish I was doing this in Ruby")
 

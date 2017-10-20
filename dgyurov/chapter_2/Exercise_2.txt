@@ -64,7 +64,7 @@ Python literal?
 compact Python literal?
 14. Can a Python programmer do anything to ensure that a variable?s value can never be changed after
 its initial assignment? 
-WHIT FUNCTIONS , IF A VARIABLE IS GIVEN A VALUE IN A FUNCTION ITS IN THE FUNCTION
+No
 15. Is "i" a string literal or variable?
 A STRING
 16. What is the difference between the following two strings? 'n' and '\n'?

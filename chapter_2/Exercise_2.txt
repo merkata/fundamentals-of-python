@@ -1,0 +1,81 @@
+Exercises
+1. Will the following lines of code print the same thing? Explain why or why not.
+©2017 Richard L. Halterman Draft date: July 27, 2017
+2.10. EXERCISES 41
+x = 6
+print(6)
+print("6")
+
+
+print(6) WILL PRINT AN INTEGER VALUE 6
+print("6") WILL PRINT THE STRING 6 THEY WILL LOOK THE SAME BUT BE DIFFERENT
+2. Will the following lines of code print the same thing? Explain why or why not.
+x = 7
+print(x)
+print("x")
+NOT THE SAME , 
+print(x) WILL PRINT THE VALUE OF X INT 7 AND print("x") JUST AN X AS STRING NOT AS VARIABLE
+
+3. What is the largest floating-point value available on your system?
+
+4. What is the smallest floating-point value available on your system?
+
+5. What happens if you attempt to use a variable within a program, and that variable has not been
+assigned a value? 
+ERROE
+6. What is wrong with the following statement that attempts to assign the value ten to variable x?
+10 = x
+10 IS A LITERAL AND CAN'T BE ASSIGNED A DIFERENT VALUE THEN IT'S OWN 
+7. Once a variable has been properly assigned can its value be changed?
+YES
+8. In Python can you assign more than one variable in a single statement?
+YES 
+9. Classify each of the following as either a legal or illegal Python identifier:
+(a) fred
+NO (b) if
+NO (c) 2x  
+NO (d) -4
+(e) sum_total
+(f) sumTotal
+NO (g) sum-total
+NO (h) sum total
+(i) sumtotal
+NO (j) While
+(k) x2
+(l) Private
+(m) public
+NO (n) $16
+(o) xTwo
+(p) _static
+(q) _4
+(r) ___
+NO (s) 10%
+(t) a27834
+NO (u) wilma's
+
+10. What can you do if a variable name you would like to use is the same as a reserved word?
+CHANGE ITS CAPITALIZATION
+11. How is the value 2:4510??5 expressed as a Python literal?
+2E5
+
+12. How can you express the literal value 0:0000000000000000000000000449 as a much more compact
+Python literal?
+13. How can you express the literal value 56992341200000000000000000000000000000 as a much more
+compact Python literal?
+14. Can a Python programmer do anything to ensure that a variable?s value can never be changed after
+its initial assignment? 
+WHIT FUNCTIONS , IF A VARIABLE IS GIVEN A VALUE IN A FUNCTION ITS IN THE FUNCTION
+15. Is "i" a string literal or variable?
+A STRING
+16. What is the difference between the following two strings? 'n' and '\n'?
+The backslash is the escape symbol, and in this case we say the n symbol is escaped.
+17. Write a Python program containing exactly one print statement that produces the following output:
+A
+B
+C
+D
+E
+F
+>>>print('A\nB\nC\nD\nE\nF')
+18. Write a Python program that simply emits a beep sound when run.
+???

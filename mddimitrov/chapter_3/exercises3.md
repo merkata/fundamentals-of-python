@@ -98,6 +98,8 @@ Evaluate each of the following Python expressions.
 (u) d2/d1*i1
 (v) i1*d2/d1
 
+unittest program exercise_3_7.py present
+
 8. What is printed by the following statement:
 print(5/3)
 
@@ -114,7 +116,6 @@ i3 = -3
 d1 = 2.0
 d2 = 5.0
 d3 = -0.5
-Evaluate each of the following Python expressions.
 Evaluate each of the following Python expressions.
 (a) i1 + (i2 * i3)
 (b) i1 * (i2 + i3)
@@ -134,6 +135,68 @@ Evaluate each of the following Python expressions.
 (p) (d1 + d2 + d3) / 3
 (q) d1 + d2 + (d3 / 3)
 (r) 3 * (d1 + d2) * (d1 - d3)
+
+```
+
+In [1]: i1, i2, i3 = 2, 5, -3
+
+In [2]: d1, d2, d3 = 2.0, 5.0, -0.5
+
+In [3]: i1 + (i2 * i3)
+Out[3]: -13
+
+In [4]: i1 * (i2 + i3)
+Out[4]: 4
+
+In [5]: i1 / (i2 + i3)
+Out[5]: 1.0
+
+In [6]: i1 // (i2 + i3)
+Out[6]: 1
+
+In [7]: i1 / i2 + i3
+Out[7]: -2.6
+
+In [8]: i1 // i2 + i3
+Out[8]: -3
+
+In [9]: 3 + 4 + 5 / 3
+Out[9]: 8.666666666666666
+
+In [10]: 3 + 4 + 5 // 3
+Out[10]: 8
+
+In [11]: (3 + 4 + 5) / 3
+Out[11]: 4.0
+
+In [12]: (3 + 4 + 5) // 3
+Out[12]: 4
+
+In [13]: d1 + (d2 * d3)
+Out[13]: -0.5
+
+In [14]: d1 + d2 * d3
+Out[14]: -0.5
+
+In [15]: d1 / d2 - d3
+Out[15]: 0.9
+
+In [16]: d1 / (d2 - d3)
+Out[16]: 0.36363636363636365
+
+In [17]: d1 + d2 + d3 / 3
+Out[17]: 6.833333333333333
+
+In [18]: (d1 + d2 +d3) / 3
+Out[18]: 2.1666666666666665
+
+In [19]: d1 + d2 + (d3 / 3)
+Out[19]: 6.833333333333333
+
+In [20]: 3 * (d1 + d2) * (d1 - d3)
+Out[20]: 52.5
+
+```
 
 10. What symbol signifies the beginning of a comment in Python?
 
@@ -157,12 +220,20 @@ Because programmers are (mostly) human
 
 15. What circumstances can cause each of the following run-time errors to arise?
 • NameError
+print(nonexistent)
 • ValueError
+int('two')
 • ZeroDivisionError
+5 / 0
 • IndentationError
+def test():
+print("Won't work")
 • OverflowError
+2231.012e12**1.510000e10
 • SyntaxError
+print "Hi"
 • TypeError
+'two' / 'three'
 Hint: Try some of following activities in the interpreter or within a Python program:
 • print a variable that has not been assigned
 • convert the string 'two' to an integer

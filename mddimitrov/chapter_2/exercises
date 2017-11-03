@@ -1,0 +1,58 @@
+1. Will the following lines of code print the same thing? Explain why or why not.
+x = 6
+print(6)
+print("6")
+2. Will the following lines of code print the same thing? Explain why or why not.
+x = 7
+print(x)
+print("x")
+3. What is the largest floating-point value available on your system?
+4. What is the smallest floating-point value available on your system?
+5. What happens if you attempt to use a variable within a program, and that variable has not been
+assigned a value?
+6. What is wrong with the following statement that attempts to assign the value ten to variable x?
+10 = x
+7. Once a variable has been properly assigned can its value be changed?
+8. In Python can you assign more than one variable in a single statement?
+9. Classify each of the following as either a legal or illegal Python identifier:
+(a) fred
+(b) if
+(c) 2x
+(d) -4
+(e) sum_total
+(f) sumTotal
+(g) sum-total
+(h) sum total
+(i) sumtotal
+(j) While
+(k) x2
+(l) Private
+(m) public
+(n) $16
+(o) xTwo
+(p) _static
+(q) _4
+(r) ___
+(s) 10%
+(t) a27834
+(u) wilma's
+10. What can you do if a variable name you would like to use is the same as a reserved word?
+11. How is the value 2.45×10−5expressed as a Python literal?
+12. How can you express the literal value 0.0000000000000000000000000449 as a much more compact
+Python literal?
+13. How can you express the literal value 56992341200000000000000000000000000000 as a much more
+compact Python literal?
+14. Can a Python programmer do anything to ensure that a variable’s value can never be changed after
+its initial assignment?
+15. Is "i" a string literal or variable?
+16. What is the difference between the following two strings? 'n' and '\n'?
+17. Write a Python program containing exactly one print statement that produces the following output:
+A
+B
+C
+D
+E
+F
+18. Write a Python program that simply emits a beep sound when run.
+
+

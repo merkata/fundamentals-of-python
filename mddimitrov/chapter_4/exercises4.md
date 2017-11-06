@@ -105,6 +105,8 @@ True
 (z) not (not b1 or not b2 or not b3)
 False
 
+Also present as a unittest program
+
 8. Express the following Boolean expressions in simpler form; that is, use fewer operators. x is an
 integer.
 (a) not (x == 2)
@@ -158,11 +160,17 @@ True and False
 12. Write a Python program that requests an integer value from the user. If the value is between 1 and
 100 inclusive, print ”OK;” otherwise, do not print anything.
 
+done
+
 13. Write a Python program that requests an integer value from the user. If the value is between 1 and
 100 inclusive, print ”OK;” otherwise, print ”Out of range.”
 
+done
+
 14. Write a Python program that allows a user to type in an English day of the week (Sunday, Monday,
 etc.). The program should print the Spanish equivalent, if possible.
+
+done
 
 15. Consider the following Python code fragment:
 # i, j, and k are numbers
@@ -185,6 +193,15 @@ What will the code print if the variables i, j, and k have the following values?
 (e) i is 7, j is 3, and k is 5
 (f) i is 7, j is 5, and k is 3
 
+i = 5 j = 5 k = 7
+i = 3 j = 5 k = 5
+i = 7 j = 3 k = 7
+i = 5 j = 3 k = 3
+i = 5 j = 3 k = 5
+i = 7 j = 7 k = 3
+
+There is also a python script that verifies this
+
 16. Consider the following Python program that prints one line of text:
 val = int(input())
 if val < 10:
@@ -204,6 +221,14 @@ What will the program print if the user provides the following input?
 (c) 5
 (d) 17
 (e) -5
+
+wow 3
+whoa 21
+6
+27
+wow -5
+
+There's also a python script to verify this
 
 17. Consider the following two Python programs that appear very similar:
 first:
@@ -237,7 +262,37 @@ How do the two programs react when the user provides the following inputs?
 (d) 50
 (e) 500
 (f) 5000
+
+```
+First program 0
+****
+Second program 0
+*
+First program 1
+***
+Second program 1
+*
+First program 5
+***
+Second program 5
+*
+First program 50
+**
+Second program 50
+*
+First program 500
+*
+Second program 500
+*
+First program 5000
+
+Second program 5000
+
+```
+
 Why do the two programs behave as they do?
+
+Because if's are being evaluated one by one, if-elif blocks stop on first True value
 
 18. Write a Python program that requests five integer values from the user. It then prints the maximum
 and minimum values entered. If the user enters the values 3, 2, 5, 0, and 1, the program would
@@ -245,6 +300,9 @@ indicate that 5 is the maximum and 0 is the minimum. Your program should handle 
 for example, if the user enters 2, 4 2, 3 and 3, the program should report 2 as the minimum and 4 as
 maximum.
 
+done
+
 19. Write a Python program that requests five integer values from the user. It then prints one of two things:
 if any of the values entered are duplicates, it prints "DUPLICATES"; otherwise, it prints "ALL UNIQUE".
 
+done
